@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة الطعام</title>
+    <!--------------------------css-------------------------------------------->
+
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #fff6e6;
+            color: #333;
+        }
+
+        header {
+            background-color: #B8860B; 
+            padding: 15px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .menu-item {
+            background-color: #ffe3cd;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .menu-item h2 {
+            color: #B8860B; 
+            margin: 10px 0;
+        }
+
+        .menu-item p {
+            font-size: 1em;
+            color: #666;
+        }
+
+       
+    </style>
+    <!-------------------------end-css--------------------------------------------->
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="pro_html1.html">الرئيسية</a></li>
+                <li><a href="pro_html2.html">قائمة الطعام</a></li>
+                <li><a href="pro_html3.html">التواصل والموقع</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu">
+            <div class="menu-item">
+                <h2>المقبلات</h2>
+                <p>حمص بالطحينة - 15 ريال</p>
+                <p>فتوش - 12 ريال</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>الأطباق الرئيسية</h2>
+                <p>مشاوي مشكلة - 45 ريال</p>
+                <p>برياني دجاج - 40 ريال</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>الحلويات</h2>
+                <p>كنافة - 20 ريال</p>
+                <p>أم علي - 18 ريال</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>المشروبات</h2>
+                <p>عصير برتقال - 10 ريال</p>
+                <p>شاي بالنعناع - 8 ريال</p>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+</html>
